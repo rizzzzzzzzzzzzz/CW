@@ -4,111 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bddec26-8f91-4c6d-a407-d004ec0fc271" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database_scripts/dbCreationScript.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database_scripts/dbDataInsertScript.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/WebRestaurantApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/config/SpringCoreConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/database/dish/DishRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/database/dish/OrmDishRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/database/ingredient/IngredientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/database/ingredient/OrmIngredientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/database/product/OrmProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/database/product/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/database/user/OrmUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/database/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/domain/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/domain/DishIngredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/domain/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/requests/dish/AddDishRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/requests/dish/GetRestaurantMenuRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/requests/dish/RemoveDishRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/requests/product/AddProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/requests/product/RemoveProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/requests/user/ChangePasswordRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/requests/user/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/requests/user/RegistrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/responses/CoreError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/responses/CoreResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/responses/dish/AddDishResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/responses/dish/GetRestaurantMenuResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/responses/dish/RemoveDishResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/responses/product/AddProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/responses/product/RemoveProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/responses/user/ChangePasswordResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/responses/user/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/responses/user/RegistrationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/dish/AddDishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/dish/GetRestaurantMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/dish/RemoveDishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/dish/validators/AddDishValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/dish/validators/RemoveDishValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/product/AddProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/product/RemoveProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/product/validators/AddProductValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/product/validators/RemoveProductValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/user/ChangePasswordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/user/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/user/RegistrationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/user/validators/ChangePasswordValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/user/validators/LoginValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/core/services/user/validators/RegistrationValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/config/SpringWebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/ExitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/dish/AddDishController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/dish/GetAllDishesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/dish/RemoveDishController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/product/AddProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/product/RemoveProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/rest/DishRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/rest/ProductRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/rest/UserRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/user/ChangePasswordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/user/LoginIndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lv/restaurant/web_ui/controllers/user/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addDishToTheList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addProduct.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/changePassword.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/exit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/getAllDishes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/getRestaurantMenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mainPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/removeDishFromTheList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/removeProductFromTheList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userRegistration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/matchers/DishMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/matchers/ProductMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/dish/AddDishServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/dish/GetRestaurantMenuServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/dish/RemoveDishServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/dish/validators/AddDishValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/dish/validators/RemoveDishValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/product/AddProductServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/product/RemoveProductServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/product/validators/AddProductValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/product/validators/RemoveProductValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/user/ChangePasswordServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/user/LoginServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/user/RegistrationServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/user/validators/ChangePasswordValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/user/validators/LoginValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv/restaurant/core/services/user/validators/RegistrationValidatorTest.java" afterDir="false" />
+    <list default="true" id="7bddec26-8f91-4c6d-a407-d004ec0fc271" name="Changes" comment="Work">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +106,30 @@
       <option name="presentableId" value="Default" />
       <updated>1684318405438</updated>
     </task>
+    <task id="LOCAL-00001" summary="Work">
+      <created>1686059056154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686059056154</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CW2$Tests_in__CW2_test_.ic" NAME="Tests in 'CW2.test' Coverage Results" MODIFIED="1685951509312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
